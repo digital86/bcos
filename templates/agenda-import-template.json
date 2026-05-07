@@ -1,0 +1,30 @@
+{
+  "month": 12,
+  "year": 2025,
+  "scheduled_formations": [
+    {
+      "formation_title": "Management d'une Équipe de Vente & Fixation des Objectifs",
+      "formation_slug": "management-equipe-vente",
+      "scheduled_date": "2025-12-15",
+      "scheduled_time": "09:00",
+      "end_time": "17:00",
+      "location": "BCOS Training Center, Alger",
+      "is_online": false,
+      "max_participants": 20,
+      "notes": "Formation en présentiel"
+    },
+    {
+      "formation_title": "Techniques de Vente Avancées",
+      "formation_slug": "techniques-vente-avancees",
+      "scheduled_date": "2025-12-20",
+      "scheduled_time": "09:00",
+      "end_time": "17:00",
+      "location": "En ligne",
+      "is_online": true,
+      "max_participants": 30,
+      "notes": "Formation en ligne via Zoom"
+    }
+  ]
+}
+
+

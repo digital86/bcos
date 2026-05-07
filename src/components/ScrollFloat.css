@@ -1,0 +1,36 @@
+.scroll-float {
+  overflow: hidden;
+  text-align: center !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-float-text {
+  display: inline-block;
+  font-size: clamp(1.5rem, 4vw, 3.5rem);
+  font-weight: 900;
+  text-align: center !important;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.scroll-float-text[dir="rtl"],
+.scroll-float-rtl {
+  text-align: center !important;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.char {
+  display: inline-block;
+  text-align: center;
+  unicode-bidi: embed;
+}
+
+[dir="rtl"] .char {
+  display: inline-block;
+  unicode-bidi: embed;
+  text-align: center;
+}
+

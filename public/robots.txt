@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /editor/
+Disallow: /auth/
+Disallow: /login/
+Disallow: /*?search=
+
+Sitemap: https://bcos-dz.com/sitemap.xml
